@@ -1,0 +1,21 @@
+
+[
+{
+  "comment":"Invalid Amount Format (Negative numbers)"
+},
+
+{
+  "userId": 102,
+  "amount": -50,
+  "pin": "1234"
+},
+
+
+
+{
+  "comment":"Expected Response, Status Code: 400 Bad Request",
+  "errorCode": "Invalid_amount",
+  "message": "Withdrawal amount must be a positive number greater than minimum allowed."
+}
+
+]

@@ -1,0 +1,24 @@
+
+
+[
+  {
+    "comment":"POST /api/v1/wallet/withdraw Request Body",
+    "userId": 102,
+    "amount": 200,
+    "pin": "1234"
+  },
+  {
+    "comment":"Expected Responses 200 OK",
+    "status": "success",
+    "transactionId": "TXN12345",
+    "newBalance": 800
+  },
+  {
+    "comment":"400 Bad Request (Below minimum)",
+    "errorCode": "INVALID_AMOUNT",
+    "message": "Minimum withdrawal is R10"
+  },
+  {
+    "comment":"  401 Unauthorized, Invalid token, 403 Forbidden, Account locked"
+  }
+]

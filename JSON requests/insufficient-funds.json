@@ -1,0 +1,24 @@
+
+[
+
+{
+  "comment":"Insufficient Funds"
+},
+
+{
+  "userId":102,
+  "amount": 1500,
+  "pin": "1234"
+},
+
+
+
+{
+  "comment":"Pre-condition: Wallet balance = 1000 Expected, Response Status Code: 409 Conflict",
+
+  "errorCode": "insufficient_funds",
+  "message": "Withdrawal amount exceeds available balance."
+}
+
+]
+

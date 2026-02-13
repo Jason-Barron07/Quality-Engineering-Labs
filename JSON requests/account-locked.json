@@ -1,0 +1,20 @@
+
+[
+
+{
+  "comment":" Account Locked (Too Many PIN Attempts)"
+},
+
+{
+  "userId": 102,
+  "amount": 100,
+  "pin": "1234"
+},
+
+{
+  "comment":"Pre-condition, Account is locked due to 3 failed PIN attempts. Expected Response Status Code: 403 Forbidden",
+
+  "errorCode": "Account_Locked",
+  "message": "Account is temporarily locked due to multiple failed PIN attempts."
+}
+]
