@@ -20,4 +20,4 @@ test('should login successfully and display Financial Dashboard', async ({ page 
   // Assert that the Financial Dashboard heading is visible after login
   await expect(page.getByRole('heading', { name: /Financial Dashboard/i })).toBeVisible();
 
-});
+});  
