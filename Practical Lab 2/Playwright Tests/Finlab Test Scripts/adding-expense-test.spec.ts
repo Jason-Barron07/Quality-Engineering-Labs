@@ -24,7 +24,7 @@ test('should add a new expense transaction', async ({ page }) => {
   await expect(page.getByText('monthly expenses')).toBeVisible();
 });
 
-
+ 
 
 
 
