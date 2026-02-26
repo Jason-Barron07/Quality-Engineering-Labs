@@ -14,4 +14,4 @@ test('should navigate to Market page and verify title', async ({ page }) => {
   // Verify that the browser title updates to confirm successful navigation
   // Using regex with case-insensitive flag for resilience
 await expect(page.getByRole('heading', { name: /Market Rates/i })).toBeVisible();
-});
+}); 
