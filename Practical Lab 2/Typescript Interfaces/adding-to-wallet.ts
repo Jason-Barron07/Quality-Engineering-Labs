@@ -17,6 +17,6 @@ const newBalance = wallet.addMoney(100);
 
 console.log(newBalance); // 100
 
-
+ 
 
 
