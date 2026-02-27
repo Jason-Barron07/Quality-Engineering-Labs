@@ -27,4 +27,4 @@ const customer1: Customer = {
 const result = checkCustomerAge(customer1);
 
 console.log(result); 
-// Output: Customer is an adult  
+// Output: Customer is an adult   
